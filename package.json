@@ -1,0 +1,18 @@
+{
+  "name": "smileysolutionXautonomi",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": [
+    "smileysolutionXautonomi-dashboard",
+    "smileysolutionXautonomi-pipeline"
+  ],
+  "scripts": {
+    "dev:dashboard": "npm run dev -w smileysolutionXautonomi-dashboard",
+    "dev:pipeline": "npm run dev -w smileysolutionXautonomi-pipeline"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "eslint": "^9",
+    "typescript": "^5"
+  }
+}
